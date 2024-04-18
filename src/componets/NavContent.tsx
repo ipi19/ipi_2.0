@@ -6,13 +6,11 @@ import Phone from "./pages/Phone";
 import Tasks from "./pages/Tasks";
 import {
   HStack,
-  Hide,
   IconButton,
   Menu,
   MenuButton,
   MenuItem,
   MenuList,
-  Show,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { useState } from "react";
