@@ -13,7 +13,6 @@ const App = () => {
       >
         <GridItem area={"nav"}>
           <NavBar />
-          <NavContent />
         </GridItem>
         <Show above="lg">
           <GridItem area={"aside"} bgColor={"yellow"}>
@@ -21,8 +20,8 @@ const App = () => {
           </GridItem>
         </Show>
 
-        <GridItem area={"main"} bgColor={"green"}>
-          main
+        <GridItem area={"main"}>
+          <NavContent />
         </GridItem>
       </Grid>
     </>
